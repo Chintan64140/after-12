@@ -1,0 +1,14 @@
+.page ul,
+.page ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.page li {
+  margin-bottom: 0.5rem;
+}
+
+.page h3 {
+  margin-top: 1.5rem;
+  color: #333366;
+}
