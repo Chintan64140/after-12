@@ -77,8 +77,10 @@ function App() {
     <Router>
       <div className="app-container">
         <header className="header">
-          <div className="logo">EduBlog</div>
-          <nav>
+          <div className="logo">Viral NEWS</div>
+          <nav style={{
+            gap:"10px"
+          }}>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/blog">Blog</Link>
