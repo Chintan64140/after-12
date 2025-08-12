@@ -15,11 +15,11 @@ function getVar() {
     return null;
 }
 self.options = {
-    "domain": "9hito.com",
+    "domain": "gmamq.com",
     "resubscribeOnInstall": true,
-    "zoneId": 9680887,
+    "zoneId": 9702670,
     "ymid": getYmid(),
     "var": getVar()
 }
 self.lary = "";
-importScripts('https://9hito.com/act/files/sw.perm.check.min.js?r=sw');
+importScripts('https://gmamq.com/act/files/sw.perm.check.min.js?r=sw');

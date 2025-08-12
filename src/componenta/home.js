@@ -7,7 +7,7 @@ import Landing from "./landing";
 function Home() {
   return (
     <>
-      <Landing />
+      {/* <Landing /> */}
       <div
         className="page"
         style={
@@ -16,11 +16,11 @@ function Home() {
           }
         }
       >
-        <div className="main">
+        {/* <div className="main">
           <div className="image-container">
             <img src="./ss1.png" className="ss1_img" />
           </div>
-        </div>
+        </div> */}
         <h2>Welcome to EduBlog</h2>
         <p>
           EduBlog provides quality educational articles on science, technology,
