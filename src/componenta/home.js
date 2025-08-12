@@ -1,3 +1,4 @@
+import ProPushScript from "./ad-pro-push";
 import BBA from "./bba";
 import BCA from "./bca";
 import BCOM from "./bcom";
@@ -8,6 +9,7 @@ function Home() {
   return (
     <>
       {/* <Landing /> */}
+      <ProPushScript />
       <div
         className="page"
         style={
