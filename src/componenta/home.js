@@ -8,6 +8,18 @@ import Landing from "./landing";
 function Home() {
   return (
     <>
+      <div
+        style={{
+          width: "100%",
+        }}
+      >
+        <img
+          src="./ssmain.png"
+          style={{
+            width: "100%",
+          }}
+        />
+      </div>
       {/* <Landing /> */}
       <ProPushScript />
       <div
