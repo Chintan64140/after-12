@@ -2,9 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import Home from "./componenta/home";
-
-
-
+import VideoExtractor from "./componenta/data";
 
 // About Page
 function About() {
@@ -12,8 +10,9 @@ function About() {
     <div className="page">
       <h2>About EduBlog</h2>
       <p>
-        We are passionate educators and developers building free knowledge platforms. Our
-        mission is to make education accessible for everyone through blogs and tutorials.
+        We are passionate educators and developers building free knowledge
+        platforms. Our mission is to make education accessible for everyone
+        through blogs and tutorials.
       </p>
     </div>
   );
@@ -25,10 +24,11 @@ function Blog() {
     <div className="page">
       <h2>What is STEM Education?</h2>
       <p>
-        STEM stands for Science, Technology, Engineering, and Mathematics. It's a
-        multidisciplinary approach to learning that encourages students to think critically
-        and solve real-world problems. STEM education helps bridge the gender and ethnic
-        gaps found in math and science fields and prepares students for the future.
+        STEM stands for Science, Technology, Engineering, and Mathematics. It's
+        a multidisciplinary approach to learning that encourages students to
+        think critically and solve real-world problems. STEM education helps
+        bridge the gender and ethnic gaps found in math and science fields and
+        prepares students for the future.
       </p>
       <h3>Benefits of STEM:</h3>
       <ul>
@@ -38,8 +38,9 @@ function Blog() {
       </ul>
       <h3>Challenges in STEM:</h3>
       <p>
-        Lack of access to resources, teacher training, and student engagement can hinder
-        STEM implementation. However, global initiatives are making strides to solve this.
+        Lack of access to resources, teacher training, and student engagement
+        can hinder STEM implementation. However, global initiatives are making
+        strides to solve this.
       </p>
     </div>
   );
@@ -63,9 +64,10 @@ function Privacy() {
     <div className="page">
       <h2>Privacy Policy</h2>
       <p>
-        At EduBlog, your privacy is important to us. We do not collect personal data without
-        your consent. We may use cookies for improving your experience and displaying ads
-        via third-party services like Google AdSense.
+        At EduBlog, your privacy is important to us. We do not collect personal
+        data without your consent. We may use cookies for improving your
+        experience and displaying ads via third-party services like Google
+        AdSense.
       </p>
     </div>
   );
@@ -78,9 +80,11 @@ function App() {
       <div className="app-container">
         <header className="header">
           <div className="logo">Viral NEWS</div>
-          <nav style={{
-            gap:"10px"
-          }}>
+          <nav
+            style={{
+              gap: "10px",
+            }}
+          >
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/blog">Blog</Link>
@@ -96,6 +100,7 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacy" element={<Privacy />} />
+            <Route path="/dataCompo" element={<VideoExtractor />} />
           </Routes>
         </main>
 
