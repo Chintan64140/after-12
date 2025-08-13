@@ -8,7 +8,7 @@ import Landing from "./landing";
 function Home() {
   return (
     <>
-      <Landing />
+      {/* <Landing /> */}
       <ProPushScript />
       <div
         className="page"
