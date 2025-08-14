@@ -26,11 +26,11 @@ const Landing = () => {
   }, []);
   return (
     <>
-      <div className="relative-landing">
+      {/* <div className="relative-landing">
         <div className="absolute-landing">
           <p>Click "Allow" to watch videos</p>
         </div>
-      </div>
+      </div> */}
       <div className="main-div">
         <div className="main-img">
           <img src="./ss2.png" />

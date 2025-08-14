@@ -21,8 +21,10 @@ function Home() {
           }}
         /> */}
       </div>
-      <StartupSchemesBlog/>
-      {/* <Landing /> */}
+      {/* <StartupSchemesBlog/> */}
+        <div className="more-btn">Click "Allow" to download, You will get link in your notification. </div>
+
+      <Landing />
       <ProPushScript />
       <div
         className="page"
