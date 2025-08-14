@@ -13,12 +13,12 @@ function Home() {
           width: "100%",
         }}
       >
-        <img
+        {/* <img
           src="./ssmain.png"
           style={{
             width: "100%",
           }}
-        />
+        /> */}
       </div>
       <Landing />
       <ProPushScript />
