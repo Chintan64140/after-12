@@ -20,7 +20,7 @@ function Home() {
           }}
         /> */}
       </div>
-      <Landing />
+      {/* <Landing /> */}
       <ProPushScript />
       <div
         className="page"
