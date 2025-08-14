@@ -4,6 +4,7 @@ import BCA from "./bca";
 import BCOM from "./bcom";
 import "./home.css";
 import Landing from "./landing";
+import StartupSchemesBlog from "./scheme";
 
 function Home() {
   return (
@@ -20,7 +21,8 @@ function Home() {
           }}
         /> */}
       </div>
-      <Landing />
+      <StartupSchemesBlog/>
+      {/* <Landing /> */}
       <ProPushScript />
       <div
         className="page"
